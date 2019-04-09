@@ -1,0 +1,32 @@
+<resources>
+    
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="Theme.MaterialComponents.Dialog"/>
+
+    <style name="AppTheme.OkButton" parent="AppTheme">
+        <item name="android:backgroundTint">@color/ktRed</item>
+    </style>
+    
+    <style name="AppTheme.KTEditText" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="colorAccent">@color/ktRed</item>
+    </style>
+    
+    <style name="AppTheme.ActionBarNoElevation" parent="AppTheme">
+        <item name="android:elevation">0dp</item>
+        <item name="elevation">0dp</item>
+        <!--<item name="windowContentOverlay">@null</item>-->
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>
